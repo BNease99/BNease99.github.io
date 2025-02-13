@@ -28,7 +28,7 @@ locale: "en-US"
 # Author Information (Replace with your details)
 author:
   name: "Braden Nease"
-  avatar: "/assets/images/20250212_211950.jpg"  # Path to your profile picture
+  avatar: "/assets/images/profile.jpg"  # Path to your profile picture
   bio: "IT aspirational"
   location: "Bellevue, Washington"
   links:

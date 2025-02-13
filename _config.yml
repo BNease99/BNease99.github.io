@@ -4,7 +4,7 @@ name: "Braden Nease"
 description: "Aspiring Cybersecurity Professional | Showcasing Skills and Projects" # Update this
 url: "https://bneasse99.github.io" # Your GitHub Pages URL
 baseurl: "" # Leave this blank for GitHub Pages
-repository: "BNeasse99/BNeasse99.github.io"  # Add your repository
+repository: "BNease99/BNease99.github.io"  # Add your repository
 
 # Build Settings
 markdown: kramdown
@@ -28,7 +28,7 @@ locale: "en-US"
 # Author Information (Replace with your details)
 author:
   name: "Braden Nease"
-  avatar: "/assets/images/nick.jpg"  # Path to your profile picture
+  avatar: "/assets/images/20250212_211950.jpg"  # Path to your profile picture
   bio: "IT aspirational"
   location: "Bellevue, Washington"
   links:

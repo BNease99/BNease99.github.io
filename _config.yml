@@ -1,0 +1,78 @@
+# Site Settings
+title: "Braden Nease - IT/Cybersecurity Portfolio"
+name: "Your Name"
+description: "Aspiring Cybersecurity Professional | Showcasing Skills and Projects" # Update this
+url: "https://bneasse99.github.io" # Your GitHub Pages URL
+baseurl: "" # Leave this blank for GitHub Pages
+repository: "BNeasse99/BNeasse99.github.io"  # Add your repository
+
+# Build Settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache # added to speed up build
+
+# Minimal Mistakes Theme Settings (Basic)
+minimal_mistakes_skin: "default" # We'll customize this later
+locale: "en-US"
+
+# Author Information (Replace with your details)
+author:
+  name: "Braden Nease"
+  avatar: "/assets/images/nick.jpg"  # Path to your profile picture
+  bio: "IT MAN"
+  location: "Bellevue, Washington"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:braden.nease@gmail.com" # Use mailto:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/BNease99"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/bnease/" # Add your LinkedIn profile URL
+
+# Defaults (Page Layouts)
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true # true/false to enable/disable Disqus comments
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Include/Exclude files
+include:
+  - "_pages"
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "vendor"
+  - "*.gemspec"
+
+# For comments (Optional, can be set up later)
+# comments:
+#   provider: "disqus"
+#   disqus:
+#     shortname: "your-disqus-shortname"
+
+#For Analytics (optional, can be set up later)
+#  analytics:
+#    provider: "google-gtag"
+#    google:
+#     tracking_id: "YOUR-GOOGLE-ANALYTICS-ID"
+#     anonymize_ip: false # true/false

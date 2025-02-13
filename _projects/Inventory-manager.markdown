@@ -6,7 +6,7 @@ technologies:
   - Python
   - USB Barcode Scanner
   - MySQL
-github: "https://github.com/BNeasse99/inventorymanagerv4"
+github: "https://github.com/BNease99/inventorymanagerv4"
 ---
 
 ## More Detailed Description

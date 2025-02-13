@@ -8,10 +8,13 @@ repository: "BNeasse99/BNeasse99.github.io"  # Add your repository
 
 # Build Settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+      
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+   
 plugins:
   - jekyll-feed
   - jekyll-include-cache # added to speed up build
+  - minimal-mistakes-jekyll
 
 # Minimal Mistakes Theme Settings (Basic)
 minimal_mistakes_skin: "default" # We'll customize this later

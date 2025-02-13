@@ -1,0 +1,42 @@
+---
+---
+
+/* Custom CSS for Project Cards */
+.project-card {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h3 {
+        margin-top: 0;
+    }
+
+    .tech-tag {
+        display: inline-block;
+        padding: 0.2em 0.5em;
+        margin: 0.2em;
+        background-color: #f0f0f0;
+        border-radius: 3px;
+        font-size: 0.8em;
+    }
+
+    .project-links {
+        margin-top: 1em;
+
+        a {
+            margin-right: 1em;
+            text-decoration: none;
+
+            i {
+                margin-right: 0.3em;
+            }
+        }
+    }
+}

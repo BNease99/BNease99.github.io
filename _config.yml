@@ -8,6 +8,11 @@ repository: "BNeasse99/BNeasse99.github.io"  # Add your repository
 
 # Build Settings
 markdown: kramdown
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
       
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
    

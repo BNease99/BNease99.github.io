@@ -1,0 +1,25 @@
+<div class="project-card">
+  {% if include.project.image %}
+    <a href="{{ include.project.url | default: '#' }}">
+      <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.title }} thumbnail">
+    </a>
+  {% endif %}
+  <h3>
+    <a href="{{ include.project.url | default: '#' }}">{{ include.project.title }}</a>
+  </h3>
+  <p>{{ include.project.description }}</p>
+  <p>
+    <strong>Technologies:</strong>
+    {% for tech in include.project.technologies %}
+      <span class="tech-tag">{{ tech }}</span>
+    {% endfor %}
+  </p>
+  <div class="project-links">
+    {% if include.project.github %}
+      <a href="{{ include.project.github }}" aria-label="GitHub repository"><i class="fab fa-github"></i> GitHub</a>
+    {% endif %}
+    {% if include.project.demo %}
+      <a href="{{ include.project.demo }}" aria-label="Live demo"><i class="fas fa-external-link-alt"></i> Demo</a>
+    {% endif %}
+  </div>
+</div>

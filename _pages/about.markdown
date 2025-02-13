@@ -6,7 +6,7 @@ layout: single
 
 ## About Me
 
-Motivated and detail-oriented aspiring cybersecurity professional with a background in IT, logistics, and electrical systems.  I bring a unique blend of technical skills, problem-solving abilities, and experience in high-pressure environments, gained from my service in the U.S. Air Force and my work in the private sector. I'm passionate about cybersecurity and eager to apply my skills to protect digital assets and contribute to a secure online world. I am currently pursuing a BS in Cybersecurity at Bellevue College.
+Motivated and detail-oriented aspiring IT professional with a background in customer service, logistics, and electrical systems.  I bring a unique blend of technical skills, problem-solving abilities, and experience in high-pressure environments, gained from my service in the U.S. Air Force and my work in the private sector. I'm passionate about cybersecurity and IT and eager to apply my skills to protect digital assets and contribute to a secure online world. I am currently pursuing a BS in Cybersecurity at Bellevue College.
 
 ## Experience
 

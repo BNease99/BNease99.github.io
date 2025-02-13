@@ -1,8 +1,8 @@
 # Site Settings
-title: "Braden Nease - IT/Cybersecurity Portfolio"
+title: "Braden Nease - Portfolio"
 name: "Braden Nease"
-description: "Aspiring Cybersecurity Professional | Showcasing Skills and Projects" # Update this
-url: "https://bneasse99.github.io" # Your GitHub Pages URL
+description: "Hello my name is Braden, welcome to my page!" # Update this
+url: "https://bnease99.github.io" # Your GitHub Pages URL
 baseurl: "" # Leave this blank for GitHub Pages
 repository: "BNease99/BNease99.github.io"  # Add your repository
 

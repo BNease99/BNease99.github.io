@@ -24,7 +24,7 @@ locale: "en-US"
 author:
   name: "Braden Nease"
   avatar: "/assets/images/nick.jpg"  # Path to your profile picture
-  bio: "IT MAN"
+  bio: "IT aspirational"
   location: "Bellevue, Washington"
   links:
     - label: "Email"

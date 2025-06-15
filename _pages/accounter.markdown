@@ -6,7 +6,7 @@ layout: single  # Add this line!
 
     
 
-## My Projects
+## Accounter
 
 You can use the Accounting AI Helper directly below:
 

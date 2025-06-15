@@ -29,7 +29,7 @@ locale: "en-US"
 author:
   name: "Braden Nease"
   avatar: "/assets/images/P3.jpg"  # Path to your profile picture
-  bio: "IT aspirational"
+  bio: "Accounting Student"
   location: "Bellevue, Washington"
   links:
     - label: "Email"
